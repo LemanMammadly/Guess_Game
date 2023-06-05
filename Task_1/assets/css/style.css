@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.all-form {
+    width: 40%;
+    margin: auto;
+    padding: 3rem 0;
+}
+
+.passwordInp{
+    position: relative;
+}
+
+i{
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+span{
+    position: absolute;
+    top: 42px;
+    left:5px;
+}

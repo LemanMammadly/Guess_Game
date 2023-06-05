@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+body {
+  background-color: #fee440;
+}
+svg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+}
+
+.all-game .header {
+  text-align: center;
+  margin-top: 7rem;
+  font-weight: bold;
+  font-size: 60px;
+  background: -webkit-linear-gradient(#00d2ff, #928DAB);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.header i {
+  color: #9a5de4;
+  font-weight: bold;
+}
+
+.all-choose div {
+  width: 300px;
+  height: 100px;
+  border-radius: 30px;
+  transition: all 0.6s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.all-choose div:hover {
+  transform: scale(1.1);
+}
+
+.all-choose div a {
+  text-align: center;
+  margin-left: 0;
+  font-size: 40px;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+
+
+.all-choose .easy {
+
+  background-color: #fee440;
+  border: 1px solid;
+}
+
+.all-choose .medium {
+  background-color: #01bbf9;
+  border: 1px solid;
+}
+
+.all-choose .hard {
+  background-color: #f05bb5;
+  border: 1px solid;
+}
